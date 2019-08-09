@@ -48,7 +48,7 @@ public class AI : MonoBehaviour
                     index--;
                 }
                 direction = (waypoints[index].transform.position - transform.position).normalized;
-            }            
+            }
             transform.position += direction * speed * Time.deltaTime;
             transform.LookAt(waypoints[index].transform);
         }

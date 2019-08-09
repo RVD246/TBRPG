@@ -9,6 +9,8 @@ TagManager:
   - BattleCamera
   - GameWorld
   - BattleWorld
+  - BattleCanvas
+  - Lightning
   layers:
   - Default
   - TransparentFX
@@ -20,9 +22,9 @@ TagManager:
   - 
   - PostProcessing
   - Floor
-  - 
-  - 
-  - 
+  - enemy1
+  - enemy2
+  - enemy3
   - 
   - 
   - 
